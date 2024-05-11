@@ -12,7 +12,6 @@ import { useState } from "react";
 
 export default function App() {
 
-  var hel = 1
   return (
     <>
       <div className="fixed w-full h-full">
