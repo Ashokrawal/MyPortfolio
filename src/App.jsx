@@ -12,6 +12,8 @@ import { useState } from "react";
 
 export default function App() {
 
+  var nas = 1
+  
   return (
     <>
       <div className="fixed w-full h-full">
