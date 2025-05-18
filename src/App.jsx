@@ -3,17 +3,13 @@ import { Suspense } from "react";
 import { Text } from "@react-three/drei";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { LayerMaterial, Depth, Noise } from "lamina";
-
 import Noodles from "./components/Noodles";
 import { HomeLayout } from "./components/Layout";
 import { useState } from "react";
 
-
-
 export default function App() {
+  var nas = 1;
 
-  var nas = 1
-  
   return (
     <>
       <div className="fixed w-full h-full">

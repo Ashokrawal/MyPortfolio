@@ -8,7 +8,7 @@ import { useGithub } from "../hooks/useGithub";
 export const HomeLayout = ({ children }) => {
   const { commit } = useGithub();
 
-  var daily = 1
+  var daily = 1;
   var today = new Date();
   var date =
     today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
@@ -33,7 +33,7 @@ export const HomeLayout = ({ children }) => {
           />
         </div>
         <div className="font-mono text-xs md:text-sm italic text-white grow basis-0 text-end">
-          Last update {moment(commit?.author?.date, "YYYYMMDD").fromNow()}
+          Last update {moment(commit?.author?.date).fromNow()}
         </div>
       </div>
     </>
