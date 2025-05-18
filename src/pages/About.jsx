@@ -8,12 +8,16 @@ export const About = () => {
     <Layout>
       <div className="title">About Me</div>
       <div className="content">
-        Hy I'm a frontend developer with 2 years of experience and I am
-        passionate about creating engaging and efficient web experiences with
-        the latest technologies. I like to keep up with the latest trends and
-        technologies in web development, and I'm always looking for new ways to
-        improve the user experience. If you are looking for a passionate and
-        committed frontend programmer,
+        Hi, I'm a frontend developer with nearly 3 years of experience building
+        engaging, efficient, and responsive web applications. I'm passionate
+        about crafting user-centric interfaces using the latest technologies and
+        design practices. I stay up to date with current trends in web
+        development and constantly look for new ways to enhance the user
+        experience. Recently, I’ve started expanding my skill set by learning
+        Node.js and working with databases, with the goal of becoming a
+        full-stack developer. If you're looking for a committed and enthusiastic
+        frontend programmer who's eager to grow and contribute to impactful
+        projects, I'd love to connect.
         <Link
           className="underline text-blue-700 font-bold cursor-pointer"
           to="/contact"

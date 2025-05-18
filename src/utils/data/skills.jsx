@@ -52,8 +52,8 @@ export const skills = [
     title: "Backend",
     items: [
       {
-        name: "Python",
-        icon: <DiPython />,
+        name: "NodeJs",
+        icon: <DiNodejs />,
       },
     ],
   },
@@ -85,10 +85,6 @@ export const skills = [
   {
     title: "Databases",
     items: [
-      {
-        name: "MySQL",
-        icon: <DiMysql />,
-      },
       {
         name: "SQLite",
         icon: <DiSqllite />,
