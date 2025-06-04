@@ -40,7 +40,7 @@ const material = new LayerMaterial({
     new Noise({
       mapping: "local",
       type: "simplex",
-      scale: 1000,
+      scale: 5000,
       intensity: 0.3,
       colorA: "#ffaf40",
       colorB: "black",
@@ -90,7 +90,7 @@ function Noodle() {
 }
 
 export default function Noodles() {
-  return Array.from({ length: 20 }, (i) => <Noodle key={i} />);
+  return Array.from({ length: 16 }, (i) => <Noodle key={i} />);
 }
 
 useGLTF.preload("/worm-transformed.glb");

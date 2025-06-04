@@ -14,7 +14,7 @@ export const Sidebar = () => {
   return (
     <>
       <button
-        className="max-sm:block hidden absolute text-neutral-500 text-3xl mx-5"
+        className="max-sm:block hidden absolute text-neutral-500 text-5xl mx-5"
         onClick={handleClick}
       >
         &#8801;
@@ -49,7 +49,7 @@ export const Sidebar = () => {
             </ul>
           </div>
           <div className="text-xs text-gray-500 text-center">
-            Deepak Ashok &reg; 2024
+            Deepak Ashok &reg; 2025
           </div>
         </div>
       </div>
