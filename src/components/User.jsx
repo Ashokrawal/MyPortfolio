@@ -18,7 +18,7 @@ export const User = () => {
       />
       <div className="information text-start">
         <div className="text-white group-hover:underline">Deepak Ashok</div>
-        <div className="text-sm text-neutral-500">Frontend Developer</div>
+        <div className="text-sm text-neutral-500">Full Stack Developer</div>
       </div>
     </a>
   );

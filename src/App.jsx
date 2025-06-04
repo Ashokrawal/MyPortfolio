@@ -22,7 +22,7 @@ export default function App() {
               Deepak Ashok
             </Caption>
             <Caption renderOrder={1} size={20} y={-0.1}>
-              Frontend Developer
+              Full Stack Developer
             </Caption>
           </Suspense>
         </Canvas>

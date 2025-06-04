@@ -1,5 +1,4 @@
 import {
-  DiAngularSimple,
   DiCss3,
   DiDocker,
   DiGit,
@@ -7,23 +6,16 @@ import {
   DiHtml5,
   DiJavascript,
   DiMongodb,
-  DiMysql,
   DiNodejs,
   DiNpm,
-  DiPostgresql,
   DiReact,
   DiPython,
-  DiRedis,
+  DiBootstrap,
+  DiJira,
+  DiAws,
   DiSqllite,
 } from "react-icons/di";
-import {
-  SiExpress,
-  SiNestjs,
-  SiSvelte,
-  SiTypescript,
-  SiNextdotjs,
-  SiVuedotjs,
-} from "react-icons/si";
+import { SiExpress, SiTypescript, SiNextdotjs } from "react-icons/si";
 
 export const skills = [
   {
@@ -55,6 +47,7 @@ export const skills = [
         name: "NodeJs",
         icon: <DiNodejs />,
       },
+      { name: "ExpressJs", icon: <SiExpress /> },
     ],
   },
   {
@@ -80,6 +73,10 @@ export const skills = [
         name: "Typescript",
         icon: <SiTypescript />,
       },
+      { name: "Python", icon: <DiPython /> },
+      { name: "Aws", icon: <DiAws /> },
+      { name: "Jira", icon: <DiJira /> },
+      { name: "BootStrap", icon: <DiBootstrap /> },
     ],
   },
   {
