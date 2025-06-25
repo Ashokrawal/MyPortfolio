@@ -27,7 +27,7 @@ const Button = ({ callback, data, value, current, setCurrent }) => {
 export const BreadCrumb = ({ callback, data }) => {
   const [current, setCurrent] = useState("frontend");
   return (
-    <div className="text-sm breadcrumbs">
+    <div className="text-xs lg:text-lg breadcrumbs">
       <ul>
         {["frontend"].map((item, i) => (
           <Button
