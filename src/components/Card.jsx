@@ -15,13 +15,13 @@ export const Card = ({ title, image, description, link, tech }) => {
           className="w-full md:w-32 object-cover rounded"
         />
         <div className="flex flex-col justify-start items-start">
-          <div className="text-lg md:text-xl font-bold transition-all group-hover:text-white">
+          <div className="text-lg md:text-xl font-bold transition-all md:group-hover:text-white">
             {title}
           </div>
-          <div className="text-sm text-neutral-700 md:text-base group-hover:text-white">
+          <div className="text-sm text-neutral-700 md:text-base md:group-hover:text-white">
             {description}
           </div>
-          <div className="flex flex-wrap gap-4 mt-4 text-xs text-neutral-500 group-hover:text-white">
+          <div className="flex flex-wrap gap-4 mt-4 text-xs text-neutral-500 md:group-hover:text-white">
             <div className="inline-flex items-center gap-1 hover:text-yellow-500">
               10 <AiOutlineStar />
             </div>
