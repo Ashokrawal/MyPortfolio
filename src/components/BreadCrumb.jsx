@@ -11,12 +11,12 @@ const Button = ({ callback, data, value, current, setCurrent }) => {
   return (
     <li onClick={handleSelect}>
       <a
-        className={`uppercase text-xs md:text-sm ${
+        className={`uppercase text-2xl md:text-3xl ${
           current === value ? "text-blue-500" : "text-normal"
-        } inline-flex content-center items-center gap-4`}
+        } inline-flex items-center gap-4`}
       >
         <>
-          <AiOutlineFolder />
+          <AiOutlineFolder size={28} />
           {value}
         </>
       </a>
@@ -27,7 +27,7 @@ const Button = ({ callback, data, value, current, setCurrent }) => {
 export const BreadCrumb = ({ callback, data }) => {
   const [current, setCurrent] = useState("frontend");
   return (
-    <div className="text-xs lg:text-lg breadcrumbs">
+    <div className="text-xl lg:text-2xl breadcrumbs p-4">
       <ul>
         {["frontend"].map((item, i) => (
           <Button

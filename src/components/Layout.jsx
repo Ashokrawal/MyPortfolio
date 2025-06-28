@@ -32,7 +32,7 @@ export const HomeLayout = ({ children }) => {
             classActive="text-blue-700"
           />
         </div>
-        <div className="font-mono text-xs md:text-sm italic text-white grow basis-0 text-end">
+        <div className="font-mono text-xs md:text-sm italic hidden md:block text-white grow basis-0 text-end">
           Last update {moment(commit?.author?.date).fromNow()}
         </div>
       </div>

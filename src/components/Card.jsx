@@ -5,28 +5,30 @@ export const Card = ({ title, image, description, link, tech }) => {
     <a
       href={link}
       target="_blank"
-      className="py-2 w-full pr-2 my-1 w-5/6 rounded border transition-transform ease-linear hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr hover:from-green-400 hover:to-blue-500 hover:border-blue-500 hover:translate-x-9 border-neutral-500/60 group"
+      rel="noopener noreferrer"
+      className="w-full md:w-5/6 rounded border border-neutral-500/60 p-3 transition-transform ease-linear hover:bg-gradient-to-tr hover:from-green-400 hover:to-blue-500 hover:border-blue-500 hover:translate-x-2 group"
     >
-      <div className="flex gap-4 w-full">
+      <div className="flex flex-col md:flex-row gap-4">
         <img
           src={image}
           alt={`${title} image preview`}
-          className="w-32"
-          width={128}
+          className="w-full md:w-32 object-cover rounded"
         />
-        <div className="flex flex-col justify-start content-start items-start h-full information">
-          <div className="text-xl font-bold transition-all ease-out md:text-2xl">
+        <div className="flex flex-col justify-start items-start">
+          <div className="text-lg md:text-xl font-bold transition-all group-hover:text-white">
             {title}
           </div>
-          <div className="text-sm md:text-sm content">{description}</div>
-          <div className="flex gap-4 mt-5 text-xs github-information text-neutral-500">
-            <div className="inline-flex gap-1 content-center items-center group-hover:text-yellow-500">
+          <div className="text-sm text-neutral-700 md:text-base group-hover:text-white">
+            {description}
+          </div>
+          <div className="flex flex-wrap gap-4 mt-4 text-xs text-neutral-500 group-hover:text-white">
+            <div className="inline-flex items-center gap-1 hover:text-yellow-500">
               10 <AiOutlineStar />
             </div>
-            <div className="inline-flex gap-1 content-center items-center">
+            <div className="inline-flex items-center gap-1">
               18 <AiOutlineBranches />
             </div>
-            <div className="inline-flex gap-1 text-neutral-600">
+            <div className="inline-flex items-center gap-1 flex-wrap">
               {tech.map((item, i) => (
                 <p key={i}>{`${item}${tech.length !== i + 1 ? "," : ""}`}</p>
               ))}

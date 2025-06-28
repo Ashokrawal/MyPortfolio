@@ -6,7 +6,7 @@ import { Certificates } from "../components/Certificates";
 export const About = () => {
   return (
     <Layout>
-      <div className="title">About Me</div>
+      <div className="title pt-8">About Me</div>
       <div className="content">
         Hi, Full-Stack Developer with nearly 3 years of experience,
         transitioning from a front-end focus to building full MERN stack
