@@ -110,18 +110,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 Deepak Ashok
 
-GitHub: @ashokrawaldz
+- GitHub: @ashokrawaldz
 
-Email: ashokrawaldz@gmail.com
+- Email: ashokrawaldz@gmail.com
 
-LinkedIn:http://www.linkedin.com/in/deepak-ashok-rawal
+- LinkedIn:http://www.linkedin.com/in/deepak-ashok-rawal
 
 ## 📞 Contact
-For any questions or feedback, feel free to reach out:
+- For any questions or feedback, feel free to reach out:
 
-Email: ashokrawaldz@gmail.com
+- Email: ashokrawaldz@gmail.com
 
-Phone: +353 (0) 899567370
+- Phone: +353 (0) 899567370
 
-Portfolio: https://my-portfolio-bzef.vercel.app
+- Portfolio: https://my-portfolio-bzef.vercel.app
+
 
