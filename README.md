@@ -34,7 +34,7 @@ Core Frameworks
 - Real-time lighting and shadows
 
 
-⚡ Getting Started
+## ⚡ Getting Started
 Prerequisites
 Node.js (v16 or higher)
 
@@ -71,17 +71,13 @@ npm run preview
 yarn preview
 
 ## 🚀 Performance Metrics
-Lighthouse Score: 95+ Performance
+- Lighthouse Score: 95+ Performance
+- First Contentful Paint: < 1.5s
+- Time to Interactive: < 3s
+- Bundle Size: < 500KB (gzipped)
+- 3D Load Time: < 2s
 
-First Contentful Paint: < 1.5s
-
-Time to Interactive: < 3s
-
-Bundle Size: < 500KB (gzipped)
-
-3D Load Time: < 2s
-
-🧪 Testing
+## 🧪 Testing
 bash
 # Run tests
 npm test
@@ -108,21 +104,15 @@ npm i -g vercel
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
-Deepak Ashok
-
 - GitHub: @ashokrawaldz
-
 - Email: ashokrawaldz@gmail.com
-
 - LinkedIn:http://www.linkedin.com/in/deepak-ashok-rawal
 
 ## 📞 Contact
 - For any questions or feedback, feel free to reach out:
-
 - Email: ashokrawaldz@gmail.com
-
 - Phone: +353 (0) 899567370
-
 - Portfolio: https://my-portfolio-bzef.vercel.app
+
 
 
