@@ -49,7 +49,7 @@ export const Sidebar = () => {
             </ul>
           </div>
           <div className="text-xs text-gray-500 text-center">
-            Deepak Ashok &reg; 2025
+            Deepak Ashok &reg; 2026
           </div>
         </div>
       </div>

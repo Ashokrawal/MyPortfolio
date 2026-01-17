@@ -25,11 +25,11 @@ const Button = ({ callback, data, value, current, setCurrent }) => {
 };
 
 export const BreadCrumb = ({ callback, data }) => {
-  const [current, setCurrent] = useState("frontend");
+  const [current, setCurrent] = useState("fullstack");
   return (
     <div className="text-xl lg:text-2xl breadcrumbs p-4">
       <ul>
-        {["frontend"].map((item, i) => (
+        {["fullstack"].map((item, i) => (
           <Button
             callback={callback}
             data={data}

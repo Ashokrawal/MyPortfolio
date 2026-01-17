@@ -1,6 +1,32 @@
 export const projects = {
   frontend: [
     {
+      title: "QuickReply Ai",
+      image: "/quickreply.png",
+      description:
+        "A Chrome extension that injects smart UI into Gmail and uses Google’s Gemini AI to instantly generate high-quality email drafts, with a fast, type-safe React setup and customizable tone controls—all without leaving your inbox. ",
+      year: "2026",
+      link: "https://github.com/Ashokrawal/QuickAi-Reply/",
+      tech: ["TypeScript.js", "MongoDb", "Vercel", "Google Gemini"],
+    },
+    {
+      title: "Airbnb Clone",
+      image: "/airbnb-clone.jpeg",
+      description:
+        "A production-style Airbnb clone built with a modern TypeScript full-stack, featuring secure auth, real-time listings, cloud image handling, and a scalable roadmap toward hosting and payments.",
+      year: "2026",
+      link: "https://airbnb-clone-client-app.vercel.app/",
+      tech: [
+        "TypeScript.js",
+        "MongoDb",
+        "Vercel",
+        "Google Gemini",
+        "MongoDb",
+        "Cloudinary",
+      ],
+    },
+
+    {
       title: "background remover app",
       image: "/bg.png",
       description:
@@ -18,24 +44,6 @@ export const projects = {
       year: "2025",
       link: "https://weathernow-chip.vercel.app/",
       tech: ["Next.js", "TailwindCSS", "Vercel", "WeatherAPI"],
-    },
-    {
-      title: "user authentication",
-      image: "/user.png",
-      description:
-        "User authentication process is done by verifying that a user is who they claim to be before granting them access to a system or resource. It's a crucial security measure that protects sensitive data and systems from unauthorized access.",
-      year: "2025",
-      link: "https://github.com/Ashokrawal/User-authentication",
-      tech: [
-        "Next.js",
-        "MongoDb",
-        "Redux",
-        "TailwindCSS",
-        "Mongoose",
-        "Nodemailer",
-        "JWT Auth",
-        "Vercel",
-      ],
     },
   ],
 };
